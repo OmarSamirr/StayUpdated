@@ -1,0 +1,19 @@
+body {
+    background-color: #37384e;
+  }
+  
+  nav{
+    box-shadow: 0 20px 20px #292a3b;
+    background-color: #37384e;
+  }
+  
+  @media (min-width: 1400px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 950px;
+    }
+  }

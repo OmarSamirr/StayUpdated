@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/signup.css" />
+  </head>
+  <body>
+    <div class="container-fluid my-5">
+      <div class="container">
+        <div class="row bg-white rounded-5 d-flex align-items-center p-5">
+          <div class="col-md-12">
+            <h1 class="text-center text-muted">Sign Up</h1>
+            <p class="lead text-center">
+              Join 60,000+ product managers receiving monthly updates.
+            </p>
+            <input
+              placeholder="Enter your Name"
+              class="form-control my-4"
+              type="text"
+              id="newUserName"
+            />
+            <input
+              placeholder="Enter your email"
+              class="form-control my-4"
+              type="email"
+              id="newUserEmail"
+            />
+            <input
+              placeholder="Enter your password"
+              class="form-control my-4"
+              type="password"
+              id="newUserPassword"
+            />
+            <p class="text-danger text-center my-4 d-none" id="invalidMsg2">All inputs are required</p>
+            <p class="text-danger text-center my-4 d-none" id="repeatMsg">Email already exists</p>
+            <p class="text-success text-center my-4 d-none" id="validMsg">Success</p>
+            <button class="btn btn-outline-dark  w-100" id="signupBtn">Sign Up</button>
+            <p class="lead text-center my-3">
+              Already have an account? <span id="signinLink">Sign In</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/signup.js"></script>
+  </body>
+</html>

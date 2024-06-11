@@ -1,0 +1,29 @@
+body {
+  background-color: #37384e;
+}
+img {
+  width: 100%;
+  background-image: url(../Images/illustration-sign-up-mobile.svg);
+}
+span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 950px;
+  }
+}
+@media (max-width: 768px) {
+  .image{
+    order: -1;
+    /* height: 200px; */
+    margin-bottom: 50px;
+  }
+}

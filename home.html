@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">News</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <div class="d-flex">
+            <button id="logoutBtn" class="btn btn-outline-warning w-100">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-flex align-items-center vh-100">
+      <div class="container">
+        <div class="row bg-white rounded-5 d-flex align-items-center p-5">
+          <div class="col-md-12">
+            <h1 class="text-center text-capitalize text-muted">Welcome, <span id="displayName"></span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/home.js"></script>
+  </body>
+</html>

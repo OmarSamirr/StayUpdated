@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+  </head>
+  <body>
+    <div class="container-fluid my-5">
+      <div class="container">
+        <div class="row bg-white rounded-5 d-flex align-items-center p-5">
+          
+          <div class="col-md-6 content ">
+            <h1 class="text-center text-muted">Stay Updated!</h1>
+            <p class="lead text-center">
+              Join 60,000+ product managers receiving monthly updates.
+            </p>
+            <input
+              placeholder="Enter your email"
+              class="form-control w-100 my-4"
+              type="text"
+              id="userEmail"
+            />
+            <input
+              placeholder="Enter your password"
+              class="form-control my-4"
+              type="password"
+              id="userPassword"
+            />
+            <p class="text-danger text-center my-4 d-none" id="invalidMsg1">All inputs are required</p>
+            <p class="text-danger text-center my-4 d-none" id="incorrectMsg">Incorrect Email or Password</p>
+            <button id="loginBtn" class="btn btn-outline-dark  w-100">Login</button>
+            <p class="lead text-center m-3">
+              Don’t have an account? <span id="signupLink">Sign Up</span>
+            </p>
+          </div>
+          
+          <div class="col-md-6  image rounded-4">
+            
+            <img
+              class="rounded-3"
+              src="Images/illustration-sign-up-mobile.svg"
+              alt=""
+            />
+          
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+  </body>
+</html>
