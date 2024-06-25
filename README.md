@@ -13,3 +13,10 @@ The Website [Link](https://omarsamirr.github.io/StayUpdated/).
 * fontawesome
 * Responsive Web Design
 * JavaScript
+  
+## Features
+
+* Create new user (sign up).
+* Login with your credentials.
+* Validation of credentials at signing up.
+* Duplicate user handling.
